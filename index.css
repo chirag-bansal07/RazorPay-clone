@@ -1,0 +1,491 @@
+body{
+    margin: 0;
+}
+.ADD{
+    display: flex;
+    justify-content: center;
+}
+.Header{
+    width: 100%;
+    color: white;
+    background-color: #02042a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.join{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .4rem;
+}
+.Nav-logo{
+    width: 9rem;
+    height: 2.5rem;
+
+}
+span{
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+.StartNow{
+    width: 6rem;
+    height: 2rem;
+    font-size: .9rem;
+    background-color: #ff5b15;
+    color: white;
+    border: none;
+}
+.Nav-color{
+    background-color: #02042a;
+}
+.NavBar{
+    padding: 1.5rem 0px;
+    width: 72%;
+    display: flex;;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavBar-sec{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Nav-Logo-Razor{
+    width: 8rem;
+}
+.NavBar-head{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.left{
+    width: 20%;
+}
+.nav-button{
+    border-radius: 3%;
+    padding: 12px 20px;
+    width: 89px;
+    height: 42.4px;
+    font-size: 15px;
+    background-color: hsla(237, 90.9%, 8.6%, 1);
+    border:1px hsl(211.88deg 82.05% 54.12%) solid;
+    color: white;
+}
+.button-white{
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: white;
+    color: hsl(211.88deg 82.05% 54.12%);
+    border: none;
+    width: 135px;
+}
+
+.navbar-payment{     
+    position: fixed;
+    top: 0;
+    display: none;
+    transition: 2s ease-in;
+    border-bottom:lightgrey 1px solid ;
+    z-index: 10000;
+    height: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://razorpay.com/build/browser/static/RZPnavbarstickyweb.216a6664.svg);
+}
+.navbarcontent{
+    display: flex;
+    align-items: center;
+    width:70% ;
+    justify-content: space-between;
+}
+.logorazor{
+    padding-top: 3rem;
+    width: 8rem;
+    height: 5rem;
+}
+.navpayment-Button{
+    margin-top: -.1rem;
+    align-self: center;
+    height: 1.3rem;
+    margin-bottom: 0;
+    text-align: center;
+    width: 12rem;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.nav-right{
+align-items: center;
+}
+.Hero{
+    clip-path: polygon(89% 100%, 100% 88%, 100% 0, 0 0, 0 88%);
+    background-color: #02042a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Payment:hover{    
+    .navbar-payment{
+        display: flex;
+    }
+    .navpayment-Button{
+        margin-top: -.1rem;
+        width: 12rem;
+        height: 1.3rem;
+    }
+}
+
+.Hero-Main{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 72%;
+}
+.Hero-Image{
+    height: 558.3px;
+    width: 670px;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+p{
+    margin: 2rem 0rem;
+    font-size: 1.4rem;
+}
+.Hero-Button{
+    border-radius: 1%;
+    margin-top: 1.5rem;
+    width: 160px;
+    height: 50px;
+    padding: 14px 18px;
+    color: white;
+    border-radius: 8px;
+    background-color: #2b84EA;
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.Hero-Span{
+    background-color: #61eae6;
+    margin: 16px 0px;
+    height: .3rem;
+    width: 2rem;
+}
+.darkblue{
+    background-color: #02042a;
+}
+.Payment{
+    margin-top: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.PaymentHead-Deco{
+    height: 4rem;
+    display: flex;
+}
+.MainHead{
+    font: bolder;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    margin-right: 30rem;
+    font-weight: 1000;
+
+}
+.HeadDeco1{
+    height: 6rem;
+    margin-right: 12rem;
+}
+.HeadDeco2{
+    position: absolute;
+    top: 59rem;
+    left: 70%;
+    margin-left: 12rem;
+    margin-top: 4rem;
+    transform: rotate(0.5turn);
+}
+.Mainspan{
+    width: 1.5rem;
+    height: .2rem;
+    margin-bottom: 5rem;
+    background-color:#61eae6 ;
+}
+.Payment-promo{
+    width: 65.8rem;
+    z-index: 100;
+    padding: 2.5rem;
+    padding-top: 0;
+    padding-right: 0;
+    display: flex;
+    border:  lightgray solid 1px;
+    border-radius: 3%;
+}
+.promo-text{
+    line-height: 2.4rem;
+    text-wrap: wrap;
+    font-size: 2rem;
+}
+.blue{
+    color: #2b84EA;
+}
+.promo-listele{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.promo-list{
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.promo-img{
+    border-radius: 3%;
+    margin-left: 3rem;
+    width: 50%;
+    height: 80%;
+
+}
+
+.divsRow{
+    margin-top: 3rem;
+    column-gap: 2.7rem;
+    display: flex;
+}
+.about-divs{
+    overflow: hidden;
+    clip-path: polygon(67% 0, 100% 23%, 100% 100%, 0 100%, 0 0);
+    border-radius: 3%;
+    border: rgb(143, 141, 141) solid .3px;
+    padding: .3rem 1rem;
+    width: 19rem;
+}
+.divs-head{
+     font-weight: 1000;
+     font-size: 1.5rem;
+}
+.divs-para{
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: #2b84EA;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+.Payment-find{
+    gap: .7rem;
+    width: 67rem;
+    height: 3rem;
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px ;
+    font-weight: 800;
+    border: #2b84EA solid .5px;
+    background:linear-gradient(180deg, rgba(74, 144, 245, 0.21) -34.7%, rgba(125, 186, 244, 0.063) 100%, rgba(125, 186, 244, 0.1295) 100%);
+
+}
+.find-para{
+    font-size: 1.1rem;
+}
+.thin{
+    font-weight: 100;
+}
+.Explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 17rem;
+    padding-bottom: 29rem;
+    clip-path: polygon(0 0, 100% 9%, 100% 85%, 74% 90%, 33% 85%, 0 100%);
+    background-color: #02042a;
+    color: white;
+
+}
+.Explore:hover{    
+    .navbar-payment{
+        display: flex;
+    }
+    .navpayment-Button{
+        margin-top: -.1rem;
+        width: 12rem;
+        height: 1.3rem;
+    }
+}
+.Features:hover{
+    .navbar-payment{
+        display: flex;
+    }
+    .navpayment-Button{
+        margin-top: -.1rem;
+        width: 12rem;
+        height: 1.3rem;
+    }
+}
+.Product-Suite:hover{
+    .navbar-payment{
+        display: flex;
+    }
+    .navpayment-Button{
+        margin-top: -.1rem;
+        width: 12rem;
+        height: 1.3rem;
+    }
+}
+.Explore-Head{
+    margin: 0%;
+}
+.bordercolorgrey{
+    border-color: hsla(229, 9.6%, 54.9%, 1);
+}
+.Explore-company{
+    display: flex;
+    border: hsla(229, 9.6%, 54.9%, 1) .3px solid;
+    border-radius: 8px;
+    padding: 2rem;
+
+}
+.Explorecompany-Head{
+    line-height: 2.8rem;
+    font-size: 2rem;
+
+}
+.CompanyImg{
+    width: 52rem;
+    height: 25rem;
+}
+.ExploreAbout{
+    
+    gap: 1.5rem;
+    display: flex;
+    margin-top: 4rem;
+}
+.ExploreDemo{
+    font-weight: 100;
+    margin-top: 2rem;
+    border-radius: 8px;
+    padding:.4rem 2rem ;
+    width: 62rem;
+    border: hsla(229, 9.6%, 54.9%, 1) .3px solid;
+    justify-content: center;
+    display: flex;
+}
+.demoH3{
+    align-self: center;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+.Demobutton{
+    text-align: center;
+    margin-left: 2rem ;
+    padding: 1rem;
+    width: 16rem;
+
+}
+.Product-Suite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.productRow{
+    display: flex;
+    margin-bottom: 3rem;
+    gap: 3rem;
+
+}
+.productH2{
+    font-size: 2rem;
+    font-weight: 1000;
+
+}
+.productHead{
+    margin-right: 10rem;
+}
+.boxshadow{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+    z-index: 1;
+    clip-path: none;
+    background-color: white;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.product-deco{
+    position: absolute;
+    top: 250rem;
+    left: 35%;
+
+}
+.product-decoright{
+    position: absolute;
+    top: 250rem;
+    left: 80%;
+
+}
+.div-img{
+    background-color: #2b84EA;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 2.5rem;
+
+}
+.about-head{
+    margin: .5rem 0;
+}
+.about-para{
+    margin: .5rem 0;
+}
+.Features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15rem;
+    clip-path: polygon(0 25%, 100% 0%, 100% 100%, 0% 100%);
+    background-color: hsl(229deg 73.3% 38.72%);
+    color: white;
+
+}
+.featurediv{
+    border: none;
+}
+.featurerows{
+    gap: 0;
+    width: 64rem;
+}
+.no-margin{
+    margin-bottom: 1rem;
+}
+.featurepara{
+    margin: .5rem;
+}
+.feature-para{
+    color: white;
+}
+.promo-listele{
+    list-style-image: url(./images/svg);
+}
